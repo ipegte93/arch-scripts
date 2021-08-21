@@ -3,10 +3,7 @@
 sudo pacman -S - < pacman.list
 sudo systemctl enable lightdm
 
-yay -S orchis-theme-git
-yay -S polybar nerd-fonts-complete yadm
-
-
+yay -S orchis-theme-git polybar nerd-fonts-complete yadm
 
 
 yadm clone https://github.com/ipegte93/dotfiles.git
