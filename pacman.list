@@ -6,6 +6,8 @@ alacritty
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
+pulseaudio
+pavucontrol
 nitrogen
 lxappearance
 picom
