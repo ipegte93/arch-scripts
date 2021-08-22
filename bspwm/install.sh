@@ -10,4 +10,5 @@ sudo systemctl enable lightdm
 
 yay -S orchis-theme-git polybar nerd-fonts-complete google-chrome picom-tryone-git yadm
 yadm clone https://github.com/ipegte93/dotfiles.git
+yadm config local.class bspwm
 yadm alt
