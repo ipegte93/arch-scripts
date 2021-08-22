@@ -1,12 +1,8 @@
 xorg
-bspwm
-sxhkd
-rofi
+alacritty
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
-thunder
-alacritty
 pulseaudio
 pavucontrol
 nitrogen
