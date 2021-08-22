@@ -1,5 +1,12 @@
 #!/bin/bash
 
+echo "Use localtime for windows? [y/n]"
+read localtime
+
+#time set
+if [ ${localtime} -eq "y"]; then
+    timedatectl set-local-rtc 1
+fi
 ln -sf /usr/share/zoneinfo/Asia/Seoul
 ln -s /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 hwclock --systohc
