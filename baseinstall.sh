@@ -29,7 +29,7 @@ grub-install --efi-directory=/boot
 os-prober
 grub-mkconfig -o /boot/grub/grub.cfg
 
-systemctl enable networkmanager.service
+systemctl enable NetworkManager.service
 
 useradd -mG wheel ipegte93
 echo "root passwd"
