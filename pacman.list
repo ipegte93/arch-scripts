@@ -5,7 +5,7 @@ rofi
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
-thunder
+thunar
 alacritty
 pulseaudio
 pavucontrol
@@ -13,5 +13,5 @@ nitrogen
 lxappearance
 archlinux-wallpaper
 papirus-icon-theme
-noto-sans
+noto-fonts
 noto-fonts-cjk
