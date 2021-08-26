@@ -9,7 +9,7 @@ makepkg -si
 cd ../
 sudo rm -rf yay
 
-yay -S polybar nerd-fonts-complete google-chrome picom-tryone-git yadm kime-git
+yay -S polybar nerd-fonts-complete google-chrome picom-tryone-git yadm kime-git oh-my-zsh-git
 yadm clone -f https://github.com/ipegte93/dotfiles.git
 yadm reset HEAD
 yadm alt
