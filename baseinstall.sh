@@ -23,6 +23,7 @@ echo "arch" >> /etc/hostname
 echo "127.0.0.1 localhost" >> /etc/hosts
 echo "::1 localhost" >> /etc/hosts
 echo "127.0.0.1 arch.localdomain arch" >> /etc/hosts
+sudo echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
 
 pacman -S networkmanager grub os-prober efibootmgr
 grub-install --efi-directory=/boot
@@ -37,4 +38,4 @@ passwd
 echo "ipegte93 passwd"
 passwd ipegte93
 
-echo "You have to edit '/etc/sudoers'."
+
