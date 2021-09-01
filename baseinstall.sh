@@ -1,12 +1,6 @@
 #!/bin/bash
 
-echo "Use localtime for windows? [y/n]"
-read localtime
-
 #time set
-if [ ${localtime} -eq "y"]; then
-    timedatectl set-local-rtc 1
-fi
 ln -sf /usr/share/zoneinfo/Asia/Seoul
 ln -s /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 hwclock --systohc
@@ -28,6 +22,7 @@ sudo echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
 pacman -S networkmanager grub os-prober efibootmgr
 grub-install --efi-directory=/boot
 os-prober
+update-grub
 grub-mkconfig -o /boot/grub/grub.cfg
 
 systemctl enable NetworkManager.service
