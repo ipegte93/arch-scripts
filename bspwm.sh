@@ -9,7 +9,7 @@ makepkg -si
 cd ../
 sudo rm -rf yay
 
-yay -S polybar nerd-fonts-complete google-chrome picom-ibhagwan-git yadm kime-git zscroll-git
+yay -S polybar nerd-fonts-noto google-chrome picom-ibhagwan-git yadm kime-git zscroll-git
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
