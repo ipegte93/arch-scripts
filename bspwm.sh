@@ -14,5 +14,4 @@ yay -S polybar nerd-fonts-noto google-chrome picom-ibhagwan-git yadm kime-git zs
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 yadm clone -f https://github.com/ipegte93/dotfiles.git
-yadm reset HEAD
-yadm alt
+yadm reset HEAD --hard
