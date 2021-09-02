@@ -6,6 +6,7 @@ rofi
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
+grub-customizer
 thunar
 alacritty
 zsh-completions
