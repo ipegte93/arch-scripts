@@ -16,13 +16,13 @@ echo "arch" >> /etc/hostname
 
 echo "127.0.0.1 localhost" >> /etc/hosts
 echo "::1 localhost" >> /etc/hosts
-echo "127.0.0.1 arch.localdomain arch" >> /etc/hosts
+echo "127.0.1.1 arch.localdomain arch" >> /etc/hosts
 sudo echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
 
 pacman -S networkmanager grub os-prober efibootmgr
 grub-install --efi-directory=/boot
+echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/drub
 os-prober
-update-grub
 grub-mkconfig -o /boot/grub/grub.cfg
 
 systemctl enable NetworkManager.service
