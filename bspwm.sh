@@ -1,13 +1,9 @@
 #!/bin/bash
 
-sudo pacman -S - < pacman.list
+sudo pacman -S - < bspwm.list
 sudo systemctl enable lightdm
 
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-cd ../
-sudo rm -rf yay
+sh yay.sh
 
 yay -S polybar nerd-fonts-noto google-chrome picom-ibhagwan-git yadm kime-git zscroll-git
 
