@@ -5,4 +5,4 @@ sudo pacman -S xorg xorg-server gnome gnome-tweaks gnome-software-packagekit-plu
 sudo systemctl enable gdm.service
 
 sh yay.sh
-yay -S google-chrome google-chrome-shell-git visual-studio-code-bin
+yay -S google-chrome google-chrome-shell-git visual-studio-code-bin authy
