@@ -4,5 +4,5 @@ Do not USE SUDO
 
 ## gnome
 ### zsh settings
-theme : kardan
+theme : simple
 
