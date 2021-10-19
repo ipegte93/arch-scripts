@@ -19,7 +19,7 @@ echo "::1 localhost" >> /etc/hosts
 echo "127.0.1.1 arch.localdomain arch" >> /etc/hosts
 echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
 
-pacman -S networkmanager grub os-prober efibootmgr ntfs-3g
+pacman -S --noconfirm networkmanager grub os-prober efibootmgr ntfs-3g
 grub-install --efi-directory=/boot
 echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub
 os-prober
