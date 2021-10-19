@@ -4,7 +4,7 @@ sudo pacman -S --noconfirm xorg xorg-server gnome gnome-tweaks gnome-software-pa
 
 sudo systemctl enable gdm.service
 
-sh yay.sh
+sh ./special/yay.sh
 yay -S --noconfirm google-chrome google-chrome-shell-git visual-studio-code-bin authy ttf-meslo-nerd-font-powerlevel10k zsh-theme-powerlevel10k-git
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

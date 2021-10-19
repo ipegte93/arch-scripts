@@ -3,7 +3,7 @@
 sudo pacman -S - < bspwm.list
 sudo systemctl enable lightdm
 
-sh yay.sh
+sh ./special/yay.sh
 
 yay -S polybar nerd-fonts-noto google-chrome picom-ibhagwan-git yadm kime-git zscroll-git
 
