@@ -5,7 +5,7 @@ sudo pacman -S --noconfirm xorg xorg-server gnome gnome-tweaks gnome-software-pa
 sudo systemctl enable gdm.service
 
 sh ./special/yay.sh
-yay -S --noconfirm google-chrome chrome-gnome-shell-git visual-studio-code-bin authy ttf-meslo-nerd-font-powerlevel10k zsh-theme-powerlevel10k-git
+yay -S --noconfirm google-chrome chrome-gnome-shell-git visual-studio-code-bin authy ttf-meslo-nerd-font-powerlevel10k zsh-theme-powerlevel10k-git tela-circle-icon-theme-git
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
