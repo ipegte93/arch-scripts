@@ -1,4 +1,4 @@
-sudo pacman -S gtk-engine-murrine gnome-themes-extra sassc
+sudo pacman -S --noconfirm gtk-engine-murrine gnome-themes-extra sassc
 
 git clone https://github.com/vinceliuice/Orchis-theme.git
 
