@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S xorg xorg-server gnome gnome-tweaks gnome-software-packagekit-plugin ibus-hangul grub-cusomizer noto-fonts-cjk ttf-jetbrains-mono archlinux-appstream-data zsh-completions powerline powerline-fonts
+sudo pacman -S --noconfirm xorg xorg-server gnome gnome-tweaks gnome-software-packagekit-plugin ibus-hangul grub-customizer noto-fonts-cjk ttf-jetbrains-mono archlinux-appstream-data zsh-completions powerline powerline-fonts
 
 sudo systemctl enable gdm.service
 
