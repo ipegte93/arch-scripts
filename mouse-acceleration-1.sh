@@ -4,4 +4,4 @@ echo 'Section "InputClass"
 	MatchIsPointer "yes"
 	Option "AccelProfile" "flat"
 	Option "AccelSpeed" "0"
-EndSection' >> /etc/X11/xorg.conf.d/50-mouseacceleration.conf
+EndSection' > /etc/X11/xorg.conf.d/50-mouse-acceleration.conf

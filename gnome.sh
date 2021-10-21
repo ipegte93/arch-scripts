@@ -3,9 +3,10 @@
 sudo pacman -S --noconfirm xorg xorg-server gnome gnome-tweaks gnome-software-packagekit-plugin ibus-hangul grub-customizer noto-fonts-cjk ttf-jetbrains-mono archlinux-appstream-data zsh-completions powerline powerline-fonts
 
 sudo systemctl enable gdm.service
+sudo -u gdm gsettings set org.gnome.desktop.peripherals.mouse accel-profile flat
 
 sh ./special/yay.sh
-sh ./special/Orchis.sh
+sh ./special/orchis-theme.sh
 
 yay -S --noconfirm google-chrome chrome-gnome-shell-git visual-studio-code-bin authy ttf-meslo-nerd-font-powerlevel10k zsh-theme-powerlevel10k-git tela-circle-icon-theme-git vimix-cursors-git
 
