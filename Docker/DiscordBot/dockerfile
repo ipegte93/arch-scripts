@@ -4,8 +4,7 @@ RUN apt-get update -y
 RUN apt-get upgrade -y
 RUN apt-get install python3 python3-pip git -y
 
-RUN pip install aiohttp
-RUN pip insatll websockets
+RUN pip install aiohttp websockets
 
 WORKDIR /root
 RUN git clone https://github.com/Chicoyaki01/Discord
