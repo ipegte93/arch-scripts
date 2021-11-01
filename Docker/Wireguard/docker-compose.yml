@@ -9,7 +9,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=America/Los_Angeles
+      - TZ=Asia/Seoul
       - SERVERURL=auto
       - SERVERPORT=51820 #optional
       - PEERS=pc1, phone1
