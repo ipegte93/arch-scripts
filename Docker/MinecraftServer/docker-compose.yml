@@ -17,5 +17,5 @@ services:
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
       MAX_TICK_TIME: "-1"
     volumes:
-      - ./minecraft-data:/data
+      - ~/minecraft-data:/data
     restart: unless-stopped
