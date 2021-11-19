@@ -13,7 +13,6 @@ services:
       MOTD: "3 months"
       DIFFICULTY: "hard"
       MAX_PLAYERS: "20"
-      ENABLE_AUTOPAUSE: "TRUE"
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
       MAX_TICK_TIME: "-1"
     volumes:
