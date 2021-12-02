@@ -18,9 +18,15 @@ echo "::1 localhost" >> /etc/hosts
 echo "127.0.1.1 arch.localdomain arch" >> /etc/hosts
 echo "%wheel ALL=(ALL) ALL NOPASSWD: ALL" >> /etc/sudoers
 
-pacman -S --noconfirm NetworkManager
-bootctl install
+pacman -S --noconfirm networkmanager grub os-prober efibootmgr ntfs-3g
+grub-install --efi-directory=/boot
+echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub
+os-prober
+grub-mkconfig -o /boot/grub/grub.cfg
 systemctl enable NetworkManager.service
+
+# Fonts
+pacman -S --noconfirm noto-fonts noto-fonts-cjk noto-fonts-emoji
 
 # KDE
 pacman -S --noconfirm kde-utilities kde-system kde-network kde-multimedia plasma
