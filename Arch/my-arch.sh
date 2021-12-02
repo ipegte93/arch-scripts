@@ -16,7 +16,7 @@ echo "arch" >> /etc/hostname
 echo "127.0.0.1 localhost" >> /etc/hosts
 echo "::1 localhost" >> /etc/hosts
 echo "127.0.1.1 arch.localdomain arch" >> /etc/hosts
-echo "%wheel ALL=(ALL) ALL NOPASSWD: ALL" >> /etc/sudoers
+echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
 pacman -S --noconfirm networkmanager grub os-prober efibootmgr ntfs-3g
 grub-install --efi-directory=/boot
