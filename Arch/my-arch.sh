@@ -1,7 +1,6 @@
 #!/bin/bash
 
 #time set
-ln -sf /usr/share/zoneinfo/Asia/Seoul
 ln -s /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 hwclock --systohc
 
@@ -17,14 +16,10 @@ echo "arch" >> /etc/hostname
 echo "127.0.0.1 localhost" >> /etc/hosts
 echo "::1 localhost" >> /etc/hosts
 echo "127.0.1.1 arch.localdomain arch" >> /etc/hosts
-echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
+echo "%wheel ALL=(ALL) ALL NOPASSWD: ALL" >> /etc/sudoers
 
-pacman -S --noconfirm networkmanager grub os-prober efibootmgr ntfs-3g
-grub-install --efi-directory=/boot
-echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub
-os-prober
-grub-mkconfig -o /boot/grub/grub.cfg
-
+pacman -S --noconfirm NetworkManager
+bootctl install
 systemctl enable NetworkManager.service
 
 useradd -mG wheel ipegte93
