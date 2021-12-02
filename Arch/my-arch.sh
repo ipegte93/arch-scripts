@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#time set
+# time set
 ln -s /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 hwclock --systohc
 
@@ -21,6 +21,9 @@ echo "%wheel ALL=(ALL) ALL NOPASSWD: ALL" >> /etc/sudoers
 pacman -S --noconfirm NetworkManager
 bootctl install
 systemctl enable NetworkManager.service
+
+# KDE
+pacman -S --noconfirm kde-utilities kde-system kde-network kde-multimedia plasma
 
 useradd -mG wheel ipegte93
 echo "root passwd"
