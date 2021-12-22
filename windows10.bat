@@ -10,6 +10,9 @@ scoop install obsidian syncthing
 scoop install vscode windows-terminal
 scoop install python
 
+:: For blog
+scoop install hugo
+
 :: Rust
 scoop install pkg-config gcc
 scoop install rustup
