@@ -8,7 +8,7 @@ scoop install add extras
 scoop install discord steam googlechrome authy bandizip
 scoop install obsidian syncthing
 scoop install vscode windows-terminal
-scoop install python
+scoop install python dotnet-sdk
 
 :: For blog
 scoop install hugo
