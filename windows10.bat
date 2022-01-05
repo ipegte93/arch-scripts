@@ -1,23 +1,34 @@
 :: Install scoop
-Set-ExecutionPolicy RemoteSigned -scope CurrentUser
-iwr -useb get.scoop.sh | iex
+    Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+    iwr -useb get.scoop.sh | iex
 
-scoop install aria2 git
-scoop install add extras
+    scoop install aria2 git
+    scoop install add extras
 
-scoop install discord steam googlechrome authy bandizip
-scoop install obsidian syncthing
-scoop install vscode windows-terminal
-scoop install python dotnet-sdk
+:: Markdown
+    scoop install obsidian syncthing
+
+:: Proggramming
+    scoop install vscode windows-terminal
+    scoop install python dotnet-sdk gcc
+
+    :: Rust
+        scoop install pkg-config
+        scoop install rustup
+        rustup default stable-x86_64-pc-windows-gnu
+        rustup component add rust-src rust-analysis
+
+:: Gaming
+scoop install discord steam authy
 
 :: For blog
-scoop install hugo
+    scoop install hugo
 
-:: Rust
-scoop install pkg-config gcc
-scoop install rustup
-rustup default stable-x86_64-pc-windows-gnu
-rustup component add rust-src rust-analysis
+:: etc
+scoop install googlechrome bandizip
+scoop install cutter ghidra
+
+
 
 :: wsl
 :: scoop install sudo archwsl
