@@ -4,6 +4,7 @@
 
     scoop install aria2 git
     scoop install add extras
+    scoop config aria2-warning-enabled false
 
 :: Markdown
     scoop install obsidian syncthing
