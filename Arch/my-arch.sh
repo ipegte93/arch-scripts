@@ -25,12 +25,6 @@ os-prober
 grub-mkconfig -o /boot/grub/grub.cfg
 systemctl enable NetworkManager.service
 
-# Fonts
-pacman -S --noconfirm noto-fonts noto-fonts-cjk noto-fonts-emoji
-
-# KDE
-pacman -S --noconfirm kde-utilities kde-system kde-network kde-multimedia plasma
-
 useradd -mG wheel ipegte93
 echo "root passwd"
 passwd
