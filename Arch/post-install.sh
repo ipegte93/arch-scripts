@@ -1,19 +1,22 @@
 #!/bin/bash
 
+# X11 #
+sudo pacman -S --noconfirm xorg xorg-server xorg-xinit
+
+# fonts #
 sudo pacman -S --noconfirm noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-jetbrains-mono
-sudo pacman -S --noconfirm xorg xorg-server gnome gnome-tweaks ibus-hangul grub-customizer archlinux-appstream-data
+
+# for AUR #
+sh ./special/aura.sh
+
+# Window Manager #
+sudo aura -A --noconfirm bspwm-git sxhkd-git polybar-git
+sudo Pacman -S rofi rxvt-unicode
 
 sudo pacman -S --noconfirm hub
-sudo pacman -S --noconfirm rofi
+sudo aura -A --noconfirm google-chrome
 
-sh ./special/fluent.sh
-
-sh ./special/aura.sh
-sudo aura -A bspwm-git sxhkd-git yadm-git
-
-sudo systemctl enable gdm.service
-sudo -u gdm gsettings set org.gnome.desktop.peripherals.mouse accel-profile flat
-
-
-# Applications
-sudo Aura -A google-chrome
+# Apply dotfiles #
+sudo aura -A --noconfirm yadm-git
+yadm clone https://github.com/ipegte93/dotfiles.git
+yadm reset --hard
