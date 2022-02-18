@@ -2,12 +2,13 @@
     Set-ExecutionPolicy RemoteSigned -scope CurrentUser
     iwr -useb get.scoop.sh | iex
 
-    scoop install aria2 git
-    scoop install add extras
+    scoop install aria2 git sudo
+    scoop bucket add extras
+    scoop config aria2-enabled true
     scoop config aria2-warning-enabled false
 
 :: Markdown
-    scoop install obsidian syncthing
+    scoop install obsidian
 
 :: Proggramming
     scoop install vscode windows-terminal
