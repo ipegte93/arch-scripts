@@ -1,22 +1,27 @@
 #!/bin/bash
 
-# X11 #
-sudo pacman -S --noconfirm xorg xorg-server xorg-xinit
+## for AUR ##
+sh ./special/yay.sh
 
-# fonts #
-sudo pacman -S --noconfirm noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-jetbrains-mono
+## Programming ##
+sudo pacman -S --noconfirm python rustup
 
-# for AUR #
-sh ./special/aura.sh
+# rust
+rustup override set stable
+rustup update stable
 
-# Window Manager #
-sudo aura -A --noconfirm bspwm-git sxhkd-git polybar-git
-sudo Pacman -S rofi rxvt-unicode
+## Window Manager ##
+sudo Pacman -S --noconfirm xorg xorg-server xorg-xinit noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-jetbrains-mono rofi alacritty
+yay -S --noconfirm bspwm-git sxhkd-git polybar-git kime-bin
 
-sudo pacman -S --noconfirm hub
-sudo aura -A --noconfirm google-chrome
+## Sound ##
+sudo pacman -S --noconfirm pulseaudio pulseaudio-alsa pulsemixer
 
-# Apply dotfiles #
-sudo aura -A --noconfirm yadm-git
+## Apply dotfiles ##
+yay -S --noconfirm yadm-git
 yadm clone https://github.com/ipegte93/dotfiles.git
 yadm reset --hard
+
+## etc ##
+sudo pacman -S --noconfirm hub discord
+yay -S --noconfirm google-chrome visual-studio-code-bin
