@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git clone https://aur.archlinux.org/yay-bin.git
-cd yay
+cd yay-bin
 makepkg -si --noconfirm
 cd ../
-rm -rf yay
+rm -rf yay-bin

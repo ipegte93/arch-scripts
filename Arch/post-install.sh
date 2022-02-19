@@ -11,8 +11,8 @@ rustup override set stable
 rustup update stable
 
 ## Window Manager ##
-sudo Pacman -S --noconfirm xorg xorg-server xorg-xinit noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-jetbrains-mono rofi alacritty
-yay -S --noconfirm bspwm-git sxhkd-git polybar-git kime-bin
+sudo Pacman -S --noconfirm xorg xorg-server xorg-xinit noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-jetbrains-mono rofi
+yay -S --noconfirm bspwm-git sxhkd-git polybar-git kime-git alacritty-git
 
 ## Sound ##
 sudo pacman -S --noconfirm pulseaudio pulseaudio-alsa pulsemixer
