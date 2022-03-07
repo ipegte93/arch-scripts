@@ -7,11 +7,14 @@ choco feature enable -n allowGlobalConfirmation
 :: Driver
 choco install amd-ryzen-chipset nvidia-display-driver
 
-:: Programming
+:: Programming Environment
 choco install microsoft-windows-terminal git python deno
 
+:: Gaming Environment
+choco install authy-desktop discord steam-client origin
+
 :: etc
-choco install vlc obsidian hugo discord steam-client authy-desktop bandizip
+choco install vlc obsidian hugo bandizip paint.net
 
 :: wsl
 :: scoop install sudo archwsl
