@@ -1,36 +1,17 @@
-:: Install scoop
-    Set-ExecutionPolicy RemoteSigned -scope CurrentUser
-    iwr -useb get.scoop.sh | iex
+:: Install Chocolatey
+Set-ExecutionPolicy Bypass -Scope Process -Force
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
+iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+choco feature enable -n allowGlobalConfirmation
 
-    scoop install aria2 git sudo
-    scoop bucket add extras
-    scoop config aria2-enabled true
-    scoop config aria2-warning-enabled false
+:: Driver
+choco install amd-ryzen-chipset nvidia-display-driver
 
-:: Markdown
-    scoop install obsidian
-
-:: Proggramming
-    scoop install vscode windows-terminal
-    scoop install python dotnet-sdk gcc
-
-    :: Rust
-        scoop install pkg-config
-        scoop install rustup
-        rustup default stable-x86_64-pc-windows-gnu
-        rustup component add rust-src rust-analysis
-
-:: Gaming
-scoop install discord steam authy
-
-:: For blog
-    scoop install hugo
+:: Programming
+choco install microsoft-windows-terminal git python deno
 
 :: etc
-scoop install googlechrome bandizip
-scoop install cutter ghidra
-
-
+choco install vlc obsidian hugo discord steam-client authy-desktop bandizip
 
 :: wsl
 :: scoop install sudo archwsl
@@ -39,5 +20,3 @@ scoop install cutter ghidra
 
 :: Turn off Windows Defender
 sudo REG ADD "hklm\software\policies\microsoft\windows defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f
-
-echo "You have to install Chipset driver and Graphic card driver. And then reboot."
