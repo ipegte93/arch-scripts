@@ -5,16 +5,16 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocola
 choco feature enable -n allowGlobalConfirmation
 
 :: Driver
-choco install amd-ryzen-chipset nvidia-display-driver
+choco install -y amd-ryzen-chipset nvidia-display-driver
 
 :: Programming Environment
-choco install microsoft-windows-terminal git python deno mingw llvm cmake ninja
+choco install -y microsoft-windows-terminal git python deno mingw cmake ninja
 
 :: Gaming Environment
-choco install authy-desktop discord steam-client origin
+choco install -y authy-desktop discord steam-client origin
 
 :: etc
-choco install vlc obsidian hugo bandizip paint.net
+choco install -y vlc obsidian hugo bandizip paint.net veracrypt
 
 :: wsl
 :: scoop install sudo archwsl
