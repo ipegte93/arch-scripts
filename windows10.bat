@@ -8,7 +8,7 @@ choco feature enable -n allowGlobalConfirmation
 choco install -y amd-ryzen-chipset nvidia-display-driver
 
 :: Programming Environment
-choco install -y microsoft-windows-terminal git python deno mingw cmake ninja
+choco install -y vscode microsoft-windows-terminal git python deno mingw cmake ninja
 
 :: Gaming Environment
 choco install -y authy-desktop discord steam-client origin
