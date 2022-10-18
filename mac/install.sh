@@ -1,6 +1,7 @@
 LIST=""
 LIST+= "git "
 LIST+= "python3 "
+LIST+= "pipenv "
 brew install $LIST
 
 
