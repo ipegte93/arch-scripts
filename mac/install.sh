@@ -7,7 +7,7 @@ brew install $LIST
 CASK=""
 CASK+="linearmouse "
 CASK+="google-chrome "
-CASK+="iterm2"
+CASK+="iterm2 "
 CASK+="visual-studio-code "
 CASK+="obsidian "
 CASK+="veracrypt "
