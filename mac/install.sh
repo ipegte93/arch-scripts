@@ -16,4 +16,11 @@ CASK+="discord "
 CASK+="authy "
 CASK+="reaper "
 CASK+="spotify "
+CASK+="rectangle "
 brew install --cask $CASK
+
+FONT= ""
+FONT+= "font-d2coding "
+FONT+= "font-jetbrains-mono "
+brew tap homebrew/cask-fonts
+brew install $FONT
