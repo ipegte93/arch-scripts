@@ -25,7 +25,7 @@
         "Gain / Velocity": true,
         "inputOffset": 3.5,
         "outputOffset": 0.0,
-        "acceleration": 0.04,
+        "acceleration": 0.12,
         "decayRate": 0.1,
         "growthRate": 1.0,
         "motivity": 1.5,
@@ -37,7 +37,7 @@
         "smooth": 0.5,
         "Cap / Jump": {
           "x": 15.0,
-          "y": 2.0
+          "y": 3.0
         },
         "Cap mode": "output",
         "data": []
@@ -65,7 +65,7 @@
         "data": []
       },
       "Sensitivity multiplier": 1.0,
-      "Y/X sensitivity ratio (vertical sens multiplier)": 1.0,
+      "Y/X sensitivity ratio (vertical sens multiplier)": 1.5,
       "L/R sensitivity ratio (left sens multiplier)": 1.0,
       "U/D sensitivity ratio (up sens multiplier)": 1.0,
       "Degrees of rotation": 0.0,
