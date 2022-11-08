@@ -1,5 +1,5 @@
 # Download
-[rawaccel](https://github.com/a1xd/rawaccel/releases)
+https://github.com/a1xd/rawaccel/releases
 
 # Startup
 Windows+R -> shell:startup
