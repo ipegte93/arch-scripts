@@ -15,7 +15,7 @@
 | [No Fade](https://modrinth.com/mod/no-fade)                | 페이드 애니메이션 삭제              |
 | [EntityCulling](https://modrinth.com/mod/entityculling)    | 보이지 않는 블럭 렌더링 스킵        |
 | [Enhanced Block Entities](https://modrinth.com/mod/ebe)    | 여러가지 블럭 렌더링 최적화         |
-| [Krypton](https://github.com/astei/krypton)                | 서버 네트워킹 스택 최적화           | 
+| [Krypton](https://modrinth.com/mod/krypton)                | 서버 네트워킹 스택 최적화           | 
 
 # ETC
 | Name                                                            | Description                                                                                                        |
