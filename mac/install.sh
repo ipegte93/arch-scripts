@@ -17,6 +17,7 @@ CASK+="authy "
 CASK+="reaper "
 CASK+="spotify "
 CASK+="rectangle "
+CASK+="telegram "
 brew install --cask $CASK
 
 FONT= ""
