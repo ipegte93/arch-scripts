@@ -1,9 +1,10 @@
 LIST=""
 LIST+= "git "
-LIST+= "python3 "
+LIST+= "python "
 LIST+= "pipenv "
+LIST+= "node "
+LIST+= "yarn "
 brew install $LIST
-
 
 CASK=""
 CASK+="linearmouse "
