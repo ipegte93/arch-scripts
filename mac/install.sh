@@ -19,6 +19,7 @@ CASK+="reaper "
 CASK+="spotify "
 CASK+="rectangle "
 CASK+="telegram "
+CASK+="musescore "
 brew install --cask $CASK
 
 FONT= ""
