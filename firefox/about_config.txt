@@ -1,0 +1,9 @@
+= ETC =
+privacy.firstparty.isolate = true # cookie
+browser.urlbar.speculativeConnect.enabled = false # urlbar autocomplete
+extensions.pocket.enabled = false
+network.http.referer.XOriginTrimmingPolicy = 2
+
+= Fingerprinting =
+privacy.resistFingerprinting.letterboxing = true
+privacy.resistFingerprinting = true
