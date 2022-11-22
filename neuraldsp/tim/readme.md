@@ -13,10 +13,10 @@
 |W6RST Lead | Factory -> Tim Henson               |
 
 ## Clean
-| Name             |                                     |
-| ---------------- | ----------------------------------- |
-| Rain Love        | Artists -> Manuel Gardner-Fernandes |
-| Split Coil Clean | rtists -> Scottie Lepage -> Clean   |
+| Name             |                                      |
+| ---------------- | ------------------------------------ |
+| Rain Love        | Artists -> Manuel Gardner-Fernandes  |
+| Split Coil Clean | Artists -> Scottie Lepage -> Clean   |
 
 ## Piezo
 | Name             |                                        |
