@@ -27,4 +27,4 @@ FONT+= "font-d2coding "
 FONT+= "font-jetbrains-mono "
 FONT+= "font-sarasa-gothic "
 brew tap homebrew/cask-fonts
-brew install $FONT
+brew install --cask $FONT
