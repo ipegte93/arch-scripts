@@ -23,9 +23,9 @@
       "Whole or horizontal accel parameters": {
         "mode": "classic",
         "Gain / Velocity": true,
-        "inputOffset": 3.5,
+        "inputOffset": 0.0,
         "outputOffset": 0.0,
-        "acceleration": 0.17,
+        "acceleration": 0.0625,
         "decayRate": 0.1,
         "growthRate": 1.0,
         "motivity": 1.5,
