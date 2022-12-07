@@ -1,5 +1,12 @@
 # Factory
 
+## Piezo
+
+| Name     |                            |
+| -------- | -------------------------- |
+| Acoustic | Artists -> Charlie Robbins |
+| FX My DI | Factory -> Neural DSP      |
+
 ## Overdrive
 
 | Name                |                              |
@@ -10,10 +17,9 @@
 
 ## Crunch
 
-| Name       |                                     |
-| ---------- | ----------------------------------- |
-| Candyamp   | Artists -> Manuel Gardner-Fernandes |
-| W6RST Lead | Factory -> Tim Henson               |
+| Name     |                                     |
+| -------- | ----------------------------------- |
+| Candyamp | Artists -> Manuel Gardner-Fernandes |
 
 ## Clean
 
@@ -22,25 +28,12 @@
 | Rain Love        | Artists -> Manuel Gardner-Fernandes |
 | Split Coil Clean | Artists -> Scottie Lepage -> Clean  |
 
-## Piezo
-
-| Name             |                                        |
-| ---------------- | -------------------------------------- |
-| Acoustic         | Artists -> Charlie Robbins             |
-| FX My DI         | Factory -> Neural DSP                  |
-| Vintage Rhythm   | Factory -> Neural DSP                  |
-| Split Coil Dream | Artists -> Scottie Lepage -> Clean     |
-| Crystal Clean    | Artists -> Nick DePirro - Night Verses |
-| Arp              | ArTists -> George Lever - G1           |
-| Vintage Lead     | Factory -> Neural DSP                  |
-| W6RST Lylon      | Factory -> Tim Henson                  |
-
 ## MultiVoicer
 
 | Name                      |                                           |
 | ------------------------- | ----------------------------------------- |
-| Steel Pan Drum            | Factory -> Neural DSP                     |
 | Anthem                    | Factory -> Neural DSP                     |
+| Steel Pan Drum            | Factory -> Neural DSP                     |
 | My Guitar Needs A Lozenge | Artists -> Scottie Lepage -> Experimental |
 | Cryborg                   | Artists -> Scottie Lepage -> Experimental |
 
