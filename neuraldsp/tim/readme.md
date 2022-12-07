@@ -26,6 +26,7 @@
 
 | Name             |                                        |
 | ---------------- | -------------------------------------- |
+| Acoustic         | Artists -> Charlie Robbins             |
 | FX My DI         | Factory -> Neural DSP                  |
 | Vintage Rhythm   | Factory -> Neural DSP                  |
 | Split Coil Dream | Artists -> Scottie Lepage -> Clean     |
@@ -47,5 +48,5 @@
 
 | Name               | Where It Came From           |
 | ------------------ | ---------------------------- |
-| Piezo              | FX My DI                     |
+| Genesis            | https://youtu.be/oAsoJ_Fny0c |
 | Polyphia Live 2022 | https://youtu.be/RCEZZlNox6E |
