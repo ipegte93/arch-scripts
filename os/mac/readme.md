@@ -13,7 +13,7 @@ shift + space : 한영전환
 
 | Name                    | Description | Install                                         |
 | ----------------------- | ----------- | ----------------------------------------------- |
-| Spotify                 |             | `brew install --cask spotify`                   |
+| Spotify                 |             | ```brew install --cask spotify```                 |
 | BIAS FX2                |             | https://neuraldsp.com/downloads                 |
 | Archetype Tim Henson    |             | https://neuraldsp.com/downloads                 |
 | Tone King Imperial MKII |             | https://www.positivegrid.com/products/bias-fx-2 |
