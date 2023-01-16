@@ -15,4 +15,4 @@
 | ------------------ | ---------------------------- |
 | Genesis            | https://youtu.be/oAsoJ_Fny0c |
 | Polyphia Live 2022 | https://youtu.be/RCEZZlNox6E |
-| Piezo              | From FX my DI                |
+| NIOD               | From FX my DI                |
