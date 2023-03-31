@@ -30,8 +30,6 @@ shift + space : 한영전환
 
 | Name        | Description                | Install                           |
 | ----------- | -------------------------- | --------------------------------- |
-| LinearMouse | 외부 마우스 휠 방향 설정용 | `brew install --cask linearmouse` |
-| Rectangle   | 화면 분할                  | `brew install --cask rectangle`   |
 | Amphetamine |                            | App Store                         |
 
 ## 개발
